@@ -2,8 +2,8 @@
   "meta": {
     "cycle": "2026-2027",
     "scope": "Metas + Rhino normalizado",
-    "updatedAt": "2026-05-29 12:37",
-    "exportedAt": "2026-05-29 12:38:52",
+    "updatedAt": "2026-05-29 12:52",
+    "exportedAt": "2026-05-29 12:54:17",
     "publicJsonUrl": "https://yirorankin.github.io/data.json",
     "files": {
       "index": "https://yirorankin.github.io/index.json",
@@ -2887,16 +2887,50 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": -0.01253849772597854,
           "cplDelta": 0.39223998238930635,
-          "cpmDelta": 0.09584182830766942
+          "cpmDelta": 0.09584182830766942,
+          "conversationDelta": -0.043478260869565216,
+          "spendDelta": 0.3317078092419451,
+          "previous": {
+            "spend": 892.02,
+            "results": 23,
+            "conversations": 23,
+            "costPerConversation": 38.783478260869565,
+            "reach": 13659,
+            "impressions": 15764,
+            "frequency": 1.1541108426678381,
+            "ctrAll": 0.2854605430426789,
+            "cpcLink": 19.822666664354944,
+            "cpm": 56.58589190560771,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 1187.9099999999999,
+            "results": 22,
+            "conversations": 22,
+            "costPerConversation": 53.99590909090909,
+            "reach": 16622,
+            "impressions": 19157,
+            "frequency": 1.1525087233786548,
+            "ctrAll": 0.2818812966728817,
+            "cpcLink": 21.998333331857022,
+            "cpm": 62.009187242261305,
+            "activeAds": 1
+          },
+          "reasons": [
+            "Costo/conv. +39.2%",
+            "Gasto +33.2% sin crecer conversaciones"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque sube el costo por conversacion.",
+          "actionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Reducir presupuesto o revisar segmentacion antes de escalar.",
         "benchmarkLabel": "Centro + Conversiones",
         "benchmarkCostPerConversation": 38.59614767255216,
         "benchmarkCtr": 0.42556705573121867,
@@ -2904,7 +2938,13 @@
         "thresholdSource": "Centro + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "Costo/conv. +39.2%",
+          "Gasto +33.2% sin crecer conversaciones"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque sube el costo por conversacion.",
+        "trendActionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
       },
       {
         "spend": 13049.429999999998,
@@ -2935,16 +2975,52 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Mejorando",
-          "className": "up",
           "ctrDelta": 0.2055349906078259,
           "cplDelta": -0.25054864667154353,
-          "cpmDelta": -0.11085127844334922
+          "cpmDelta": -0.11085127844334922,
+          "conversationDelta": -0.3333333333333333,
+          "spendDelta": -0.5003657644476956,
+          "previous": {
+            "spend": 437.44,
+            "results": 9,
+            "conversations": 9,
+            "costPerConversation": 48.60444444444445,
+            "reach": 8907,
+            "impressions": 9770,
+            "frequency": 1.0968900864488604,
+            "ctrAll": 0.3172978505875128,
+            "cpcLink": 14.110967740843021,
+            "cpm": 44.77379733879222,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 218.56,
+            "results": 6,
+            "conversations": 6,
+            "costPerConversation": 36.42666666666667,
+            "reach": 5026,
+            "impressions": 5490,
+            "frequency": 1.0923199363310785,
+            "ctrAll": 0.3825136613279006,
+            "cpcLink": 10.407619044198537,
+            "cpm": 39.810564663023676,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR +20.6%",
+            "Costo/conv. -25.1%",
+            "CPM -11.1%",
+            "Conversaciones -33.3%"
+          ],
+          "label": "Mejorando",
+          "className": "up",
+          "diagnosis": "Gana eficiencia porque mejora el CTR, baja el costo por conversacion.",
+          "actionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Mantener activo y considerar incremento gradual si el costo sigue sano.",
         "benchmarkLabel": "Mérida + Conversiones",
         "benchmarkCostPerConversation": 53.39065300896285,
         "benchmarkCtr": 0.41212622631328216,
@@ -2952,7 +3028,15 @@
         "thresholdSource": "Mérida + Conversiones",
         "trendLabel": "Mejorando",
         "trendClass": "up",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR +20.6%",
+          "Costo/conv. -25.1%",
+          "CPM -11.1%",
+          "Conversaciones -33.3%"
+        ],
+        "trendDiagnosis": "Gana eficiencia porque mejora el CTR, baja el costo por conversacion.",
+        "trendActionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
       },
       {
         "spend": 11628.839999999998,
@@ -2983,16 +3067,49 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Mejorando",
-          "className": "up",
           "ctrDelta": 0.42812760260105226,
           "cplDelta": -0.006719146226361474,
-          "cpmDelta": 0.06389885338357695
+          "cpmDelta": 0.06389885338357695,
+          "conversationDelta": 0.058823529411764705,
+          "spendDelta": 0.05170913928973488,
+          "previous": {
+            "spend": 781.68,
+            "results": 17,
+            "conversations": 17,
+            "costPerConversation": 45.98117647058823,
+            "reach": 12636,
+            "impressions": 15361,
+            "frequency": 1.21565368787591,
+            "ctrAll": 0.22133975652626775,
+            "cpcLink": 22.990588235294123,
+            "cpm": 50.887312023956774,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 822.0999999999999,
+            "results": 18,
+            "conversations": 18,
+            "costPerConversation": 45.67222222222222,
+            "reach": 12180,
+            "impressions": 15185,
+            "frequency": 1.2467159277504105,
+            "ctrAll": 0.3161014158481594,
+            "cpcLink": 17.127083334566837,
+            "cpm": 54.13895291405992,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR +42.8%"
+          ],
+          "label": "Mejorando",
+          "className": "up",
+          "diagnosis": "Gana eficiencia porque mejora el CTR.",
+          "actionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Mantener activo y considerar incremento gradual si el costo sigue sano.",
         "benchmarkLabel": "Virtual + Conversiones",
         "benchmarkCostPerConversation": 42.09729079497898,
         "benchmarkCtr": 0.4862844941696727,
@@ -3000,7 +3117,12 @@
         "thresholdSource": "Virtual + Conversiones",
         "trendLabel": "Mejorando",
         "trendClass": "up",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR +42.8%"
+        ],
+        "trendDiagnosis": "Gana eficiencia porque mejora el CTR.",
+        "trendActionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
       },
       {
         "spend": 8829.54,
@@ -3031,16 +3153,52 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": 0.1541196344034157,
           "cplDelta": 0.36416750696957134,
-          "cpmDelta": -0.10033571222876037
+          "cpmDelta": -0.10033571222876037,
+          "conversationDelta": 1,
+          "spendDelta": 1.7283350139391422,
+          "previous": {
+            "spend": 168.59,
+            "results": 3,
+            "conversations": 3,
+            "costPerConversation": 56.196666666666665,
+            "reach": 3473,
+            "impressions": 3710,
+            "frequency": 1.068240714080046,
+            "ctrAll": 0.3234501347708895,
+            "cpcLink": 14.049166666666666,
+            "cpm": 45.44204851752022,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 459.97,
+            "results": 6,
+            "conversations": 6,
+            "costPerConversation": 76.66166666666668,
+            "reach": 10674,
+            "impressions": 11251,
+            "frequency": 1.0540565860970583,
+            "ctrAll": 0.37330015128951455,
+            "cpcLink": 10.951666661038741,
+            "cpm": 40.882588214380945,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR +15.4%",
+            "Costo/conv. +36.4%",
+            "CPM -10.0%",
+            "Conversaciones +100.0%"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque sube el costo por conversacion.",
+          "actionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Reducir presupuesto o revisar segmentacion antes de escalar.",
         "benchmarkLabel": "Playa del Carmen + Conversiones",
         "benchmarkCostPerConversation": 34.00049701789262,
         "benchmarkCtr": 0.8549782815838359,
@@ -3048,7 +3206,15 @@
         "thresholdSource": "Playa del Carmen + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR +15.4%",
+          "Costo/conv. +36.4%",
+          "CPM -10.0%",
+          "Conversaciones +100.0%"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque sube el costo por conversacion.",
+        "trendActionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
       },
       {
         "spend": 4878.909999999998,
@@ -3079,16 +3245,51 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": -0.06722794685282663,
           "cplDelta": 0.44270122783083216,
-          "cpmDelta": -0.10285907563137572
+          "cpmDelta": -0.10285907563137572,
+          "conversationDelta": -0.3333333333333333,
+          "spendDelta": -0.038199181446111834,
+          "previous": {
+            "spend": 293.2,
+            "results": 3,
+            "conversations": 3,
+            "costPerConversation": 97.73333333333333,
+            "reach": 6926,
+            "impressions": 7423,
+            "frequency": 1.0717585908172105,
+            "ctrAll": 0.1886029907443413,
+            "cpcLink": 20.94285713844051,
+            "cpm": 39.49885491041358,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 282,
+            "results": 2,
+            "conversations": 2,
+            "costPerConversation": 141,
+            "reach": 7353,
+            "impressions": 7958,
+            "frequency": 1.0822793417652659,
+            "ctrAll": 0.17592359890629658,
+            "cpcLink": 20.142857141471485,
+            "cpm": 35.43603920583061,
+            "activeAds": 1
+          },
+          "reasons": [
+            "Costo/conv. +44.3%",
+            "CPM -10.3%",
+            "Conversaciones -33.3%"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque sube el costo por conversacion, caen las conversaciones.",
+          "actionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Reducir presupuesto o revisar segmentacion antes de escalar.",
         "benchmarkLabel": "Campeche + Conversiones",
         "benchmarkCostPerConversation": 78.1510550458716,
         "benchmarkCtr": 0.3838341466570079,
@@ -3096,7 +3297,14 @@
         "thresholdSource": "Campeche + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "Costo/conv. +44.3%",
+          "CPM -10.3%",
+          "Conversaciones -33.3%"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque sube el costo por conversacion, caen las conversaciones.",
+        "trendActionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
       },
       {
         "spend": 3723.8899999999994,
@@ -3127,16 +3335,49 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Estable",
-          "className": "stable",
           "ctrDelta": 0,
           "cplDelta": 0,
-          "cpmDelta": -0.07723224731937654
+          "cpmDelta": -0.07723224731937654,
+          "conversationDelta": 0,
+          "spendDelta": 3.221662468513853,
+          "previous": {
+            "spend": 3.9700000000000006,
+            "results": 0,
+            "conversations": 0,
+            "costPerConversation": 0,
+            "reach": 80,
+            "impressions": 80,
+            "frequency": 1,
+            "ctrAll": 0,
+            "cpcLink": 0,
+            "cpm": 49.62500000000001,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 16.759999999999998,
+            "results": 0,
+            "conversations": 0,
+            "costPerConversation": 0,
+            "reach": 352,
+            "impressions": 366,
+            "frequency": 1.0397727272727273,
+            "ctrAll": 0.546448087431694,
+            "cpcLink": 8.379999999999999,
+            "cpm": 45.792349726775946,
+            "activeAds": 1
+          },
+          "reasons": [
+            "Gasto +322.2% sin crecer conversaciones"
+          ],
+          "label": "Estable",
+          "className": "stable",
+          "diagnosis": "Las metricas clave se mueven dentro de un rango menor al 10%.",
+          "actionHint": "Mantener y revisar de nuevo en 48 horas."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Mantener y revisar de nuevo en 48 horas.",
         "benchmarkLabel": "Virtual + Conversiones",
         "benchmarkCostPerConversation": 42.09729079497898,
         "benchmarkCtr": 0.4862844941696727,
@@ -3144,7 +3385,12 @@
         "thresholdSource": "Virtual + Conversiones",
         "trendLabel": "Estable",
         "trendClass": "stable",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "Gasto +322.2% sin crecer conversaciones"
+        ],
+        "trendDiagnosis": "Las metricas clave se mueven dentro de un rango menor al 10%.",
+        "trendActionHint": "Mantener y revisar de nuevo en 48 horas."
       },
       {
         "spend": 3056.5399999999995,
@@ -3175,16 +3421,51 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": -0.18444285297218763,
           "cplDelta": 0,
-          "cpmDelta": 0.34715976597327663
+          "cpmDelta": 0.34715976597327663,
+          "conversationDelta": 0,
+          "spendDelta": 2.3036551077788197,
+          "previous": {
+            "spend": 53.349999999999994,
+            "results": 0,
+            "conversations": 0,
+            "costPerConversation": 0,
+            "reach": 1625,
+            "impressions": 1709,
+            "frequency": 1.0516923076923077,
+            "ctrAll": 0.3510825041541241,
+            "cpcLink": 8.891666672603362,
+            "cpm": 31.21708601521357,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 176.25,
+            "results": 0,
+            "conversations": 0,
+            "costPerConversation": 0,
+            "reach": 3844,
+            "impressions": 4191,
+            "frequency": 1.0902705515088449,
+            "ctrAll": 0.28632784545931755,
+            "cpcLink": 14.687499996083336,
+            "cpm": 42.05440229062276,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR -18.4%",
+            "CPM +34.7%",
+            "Gasto +230.4% sin crecer conversaciones"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque baja el CTR, sube el CPM.",
+          "actionHint": "Refrescar creativo o cambiar gancho/copy."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Refrescar creativo o cambiar gancho/copy.",
         "benchmarkLabel": "Campeche + Conversiones",
         "benchmarkCostPerConversation": 78.1510550458716,
         "benchmarkCtr": 0.3838341466570079,
@@ -3192,7 +3473,14 @@
         "thresholdSource": "Campeche + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR -18.4%",
+          "CPM +34.7%",
+          "Gasto +230.4% sin crecer conversaciones"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque baja el CTR, sube el CPM.",
+        "trendActionHint": "Refrescar creativo o cambiar gancho/copy."
       },
       {
         "spend": 2781.6800000000003,
@@ -3223,16 +3511,51 @@
         "creativeAngle": "Precio",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": -0.8729778682418555,
           "cplDelta": 0.9879627013280591,
-          "cpmDelta": -0.024768646868291347
+          "cpmDelta": -0.024768646868291347,
+          "conversationDelta": 0,
+          "spendDelta": 0.9879627013280591,
+          "previous": {
+            "spend": 176.95,
+            "results": 4,
+            "conversations": 4,
+            "costPerConversation": 44.2375,
+            "reach": 3819,
+            "impressions": 4213,
+            "frequency": 1.1031683686829012,
+            "ctrAll": 2.6584381775456922,
+            "cpcLink": 1.5799107083610489,
+            "cpm": 42.0009494422027,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 351.77000000000004,
+            "results": 4,
+            "conversations": 4,
+            "costPerConversation": 87.94250000000001,
+            "reach": 7524,
+            "impressions": 8588,
+            "frequency": 1.1414141414141414,
+            "ctrAll": 0.33768048445909055,
+            "cpcLink": 12.129999997763607,
+            "cpm": 40.960642757335826,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR -87.3%",
+            "Costo/conv. +98.8%",
+            "Gasto +98.8% sin crecer conversaciones"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque baja el CTR, sube el costo por conversacion.",
+          "actionHint": "Refrescar creativo o cambiar gancho/copy."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Refrescar creativo o cambiar gancho/copy.",
         "benchmarkLabel": "Playa del Carmen + Conversiones",
         "benchmarkCostPerConversation": 34.00049701789262,
         "benchmarkCtr": 0.8549782815838359,
@@ -3240,7 +3563,14 @@
         "thresholdSource": "Playa del Carmen + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR -87.3%",
+          "Costo/conv. +98.8%",
+          "Gasto +98.8% sin crecer conversaciones"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque baja el CTR, sube el costo por conversacion.",
+        "trendActionHint": "Refrescar creativo o cambiar gancho/copy."
       },
       {
         "spend": 1691.4,
@@ -3271,16 +3601,51 @@
         "creativeAngle": "Precio",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Mejorando",
-          "className": "up",
           "ctrDelta": 2.705882353986463,
           "cplDelta": 0,
-          "cpmDelta": -0.1378705328285161
+          "cpmDelta": -0.1378705328285161,
+          "conversationDelta": 0,
+          "spendDelta": 1.442700156985871,
+          "previous": {
+            "spend": 70.07000000000001,
+            "results": 0,
+            "conversations": 0,
+            "costPerConversation": 0,
+            "reach": 1628,
+            "impressions": 1674,
+            "frequency": 1.0282555282555284,
+            "ctrAll": 0.11947431302270012,
+            "cpcLink": 35.035000000000004,
+            "cpm": 41.85782556750299,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 171.16,
+            "results": 3,
+            "conversations": 3,
+            "costPerConversation": 57.053333333333335,
+            "reach": 4467,
+            "impressions": 4743,
+            "frequency": 1.0617864338482204,
+            "ctrAll": 0.4427577483854795,
+            "cpcLink": 8.150476188177254,
+            "cpm": 36.08686485346827,
+            "activeAds": 1
+          },
+          "reasons": [
+            "CTR +270.6%",
+            "CPM -13.8%",
+            "Gasto +144.3% sin crecer conversaciones"
+          ],
+          "label": "Mejorando",
+          "className": "up",
+          "diagnosis": "Gana eficiencia porque mejora el CTR.",
+          "actionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Mantener activo y considerar incremento gradual si el costo sigue sano.",
         "benchmarkLabel": "Playa del Carmen + Conversiones",
         "benchmarkCostPerConversation": 34.00049701789262,
         "benchmarkCtr": 0.8549782815838359,
@@ -3288,7 +3653,14 @@
         "thresholdSource": "Playa del Carmen + Conversiones",
         "trendLabel": "Mejorando",
         "trendClass": "up",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "CTR +270.6%",
+          "CPM -13.8%",
+          "Gasto +144.3% sin crecer conversaciones"
+        ],
+        "trendDiagnosis": "Gana eficiencia porque mejora el CTR.",
+        "trendActionHint": "Mantener activo y considerar incremento gradual si el costo sigue sano."
       },
       {
         "spend": 1528.51,
@@ -3319,16 +3691,51 @@
         "creativeAngle": "Urgencia",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": -0.07698365584794731,
           "cplDelta": 0.21151643842152965,
-          "cpmDelta": 0.1359994653911154
+          "cpmDelta": 0.1359994653911154,
+          "conversationDelta": 0.3333333333333333,
+          "spendDelta": 0.6153552512287063,
+          "previous": {
+            "spend": 209.57,
+            "results": 3,
+            "conversations": 3,
+            "costPerConversation": 69.85666666666667,
+            "reach": 3561,
+            "impressions": 3851,
+            "frequency": 1.081437798371244,
+            "ctrAll": 0.41547649956309074,
+            "cpcLink": 13.09812500149431,
+            "cpm": 54.41963126460659,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 338.53,
+            "results": 4,
+            "conversations": 4,
+            "costPerConversation": 84.6325,
+            "reach": 4982,
+            "impressions": 5476,
+            "frequency": 1.0991569650742674,
+            "ctrAll": 0.38349159970781593,
+            "cpcLink": 16.12047619047619,
+            "cpm": 61.82067202337472,
+            "activeAds": 1
+          },
+          "reasons": [
+            "Costo/conv. +21.2%",
+            "CPM +13.6%",
+            "Conversaciones +33.3%"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque sube el costo por conversacion, sube el CPM.",
+          "actionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Reducir presupuesto o revisar segmentacion antes de escalar.",
         "benchmarkLabel": "Centro + Leads",
         "benchmarkCostPerConversation": 31.042950819672132,
         "benchmarkCtr": 0.551817609759065,
@@ -3336,7 +3743,14 @@
         "thresholdSource": "Centro + Leads",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "Costo/conv. +21.2%",
+          "CPM +13.6%",
+          "Conversaciones +33.3%"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque sube el costo por conversacion, sube el CPM.",
+        "trendActionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
       },
       {
         "spend": 1491.33,
@@ -3367,16 +3781,51 @@
         "creativeAngle": "Ansiedad",
         "cta": "WhatsApp",
         "trend": {
-          "label": "Deteriorando",
-          "className": "down",
           "ctrDelta": 0.04178199601349687,
           "cplDelta": 0.25213363640262465,
-          "cpmDelta": -0.1847185760077809
+          "cpmDelta": -0.1847185760077809,
+          "conversationDelta": -0.6666666666666666,
+          "spendDelta": -0.5826221211991252,
+          "previous": {
+            "spend": 233.17000000000002,
+            "results": 3,
+            "conversations": 3,
+            "costPerConversation": 77.72333333333334,
+            "reach": 4651,
+            "impressions": 4940,
+            "frequency": 1.0621371748011181,
+            "ctrAll": 0.30364372469635625,
+            "cpcLink": 15.544666666666668,
+            "cpm": 47.2004048582996,
+            "activeAds": 1
+          },
+          "current": {
+            "spend": 97.32000000000001,
+            "results": 1,
+            "conversations": 1,
+            "costPerConversation": 97.32000000000001,
+            "reach": 2447,
+            "impressions": 2529,
+            "frequency": 1.03351042092358,
+            "ctrAll": 0.31633056559114275,
+            "cpcLink": 12.164999994221626,
+            "cpm": 38.48161328588375,
+            "activeAds": 1
+          },
+          "reasons": [
+            "Costo/conv. +25.2%",
+            "CPM -18.5%",
+            "Conversaciones -66.7%"
+          ],
+          "label": "Deteriorando",
+          "className": "down",
+          "diagnosis": "Pierde eficiencia porque sube el costo por conversacion, caen las conversaciones.",
+          "actionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Reducir presupuesto o revisar segmentacion antes de escalar.",
         "benchmarkLabel": "Veracruz + Conversiones",
         "benchmarkCostPerConversation": 44.040049504950495,
         "benchmarkCtr": 0.46929697771190537,
@@ -3384,7 +3833,14 @@
         "thresholdSource": "Veracruz + Conversiones",
         "trendLabel": "Deteriorando",
         "trendClass": "down",
-        "trendDetail": ""
+        "trendDetail": "",
+        "trendReasons": [
+          "Costo/conv. +25.2%",
+          "CPM -18.5%",
+          "Conversaciones -66.7%"
+        ],
+        "trendDiagnosis": "Pierde eficiencia porque sube el costo por conversacion, caen las conversaciones.",
+        "trendActionHint": "Reducir presupuesto o revisar segmentacion antes de escalar."
       },
       {
         "spend": 720.92,
@@ -3417,12 +3873,15 @@
         "trend": {
           "label": "Sin tendencia",
           "className": "none",
-          "detail": "datos insuficientes"
+          "detail": "datos insuficientes",
+          "reasons": [],
+          "diagnosis": "Todavia no hay 6 dias de datos para comparar los ultimos 3 dias contra los 3 anteriores.",
+          "actionHint": "Esperar mas datos antes de ajustar por tendencia."
         },
         "decisionState": "Riesgo",
         "decisionClass": "risk",
         "decisionReason": "Esta por debajo del benchmark operativo.",
-        "recommendedAction": "Revisar segmentacion, objetivo o mensaje.",
+        "recommendedAction": "Esperar mas datos antes de ajustar por tendencia.",
         "benchmarkLabel": "Virtual + Conversiones",
         "benchmarkCostPerConversation": 42.09729079497898,
         "benchmarkCtr": 0.4862844941696727,
@@ -3430,7 +3889,10 @@
         "thresholdSource": "Virtual + Conversiones",
         "trendLabel": "Sin tendencia",
         "trendClass": "none",
-        "trendDetail": "datos insuficientes"
+        "trendDetail": "datos insuficientes",
+        "trendReasons": [],
+        "trendDiagnosis": "Todavia no hay 6 dias de datos para comparar los ultimos 3 dias contra los 3 anteriores.",
+        "trendActionHint": "Esperar mas datos antes de ajustar por tendencia."
       }
     ]
   }
