@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "cycle": "2026-2027",
+    "scope": "Metas + Rhino normalizado",
+    "updatedAt": "2026-05-29 10:05",
+    "exportedAt": "2026-05-29 10:06:26",
+    "publicJsonUrl": "https://yirorankin.github.io/data.json",
+    "files": {
+      "index": "https://yirorankin.github.io/index.json",
+      "data": "https://yirorankin.github.io/data.json",
+      "kpis": "https://yirorankin.github.io/kpis.json",
+      "campus": "https://yirorankin.github.io/campus.json",
+      "monthlyEnrollment": "https://yirorankin.github.io/monthlyEnrollment.json",
+      "sales": "https://yirorankin.github.io/sales.json",
+      "marketing": "https://yirorankin.github.io/marketing.json"
+    }
+  },
+  "sections": {
+    "kpis": "https://yirorankin.github.io/kpis.json",
+    "campus": "https://yirorankin.github.io/campus.json",
+    "monthlyEnrollment": "https://yirorankin.github.io/monthlyEnrollment.json",
+    "sales": "https://yirorankin.github.io/sales.json",
+    "marketing": "https://yirorankin.github.io/marketing.json",
+    "data": "https://yirorankin.github.io/data.json"
+  },
+  "counts": {
+    "kpis": 5,
+    "campus": 22,
+    "monthlyEnrollment": 1080,
+    "starts": 72,
+    "salesRecords": 1731,
+    "marketingRecords": 362
+  }
+}
