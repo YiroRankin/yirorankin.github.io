@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "cycle": "2026-2027",
+    "scope": "Metas + Rhino normalizado",
+    "updatedAt": "2026-05-29 10:22",
+    "exportedAt": "2026-05-29 10:24:51",
+    "publicJsonUrl": "https://yirorankin.github.io/data.json",
+    "files": {
+      "index": "https://yirorankin.github.io/index.json",
+      "data": "https://yirorankin.github.io/data.json",
+      "kpis": "https://yirorankin.github.io/kpis.json",
+      "campus": "https://yirorankin.github.io/campus.json",
+      "monthlyEnrollment": "https://yirorankin.github.io/monthlyEnrollment.json",
+      "sales": "https://yirorankin.github.io/sales.json",
+      "salesIndex": "https://yirorankin.github.io/sales/index.json",
+      "salesRecords": "https://yirorankin.github.io/sales/records.json",
+      "salesGoals": "https://yirorankin.github.io/sales/goals.json",
+      "salesFunnelGoals": "https://yirorankin.github.io/sales/funnel-goals.json",
+      "salesReconciliation": "https://yirorankin.github.io/sales/reconciliation.json",
+      "salesEvolution": "https://yirorankin.github.io/sales/evolution.json",
+      "marketing": "https://yirorankin.github.io/marketing.json"
+    }
+  },
+  "sections": {
+    "records": "https://yirorankin.github.io/sales/records.json",
+    "goals": "https://yirorankin.github.io/sales/goals.json",
+    "funnelGoals": "https://yirorankin.github.io/sales/funnel-goals.json",
+    "reconciliation": "https://yirorankin.github.io/sales/reconciliation.json",
+    "evolution": "https://yirorankin.github.io/sales/evolution.json",
+    "full": "https://yirorankin.github.io/sales.json"
+  },
+  "counts": {
+    "records": 1731,
+    "specialistGoals": 1262,
+    "funnelGoals": 3540,
+    "funnelGroupGoals": 2593,
+    "reconciliationRows": 243,
+    "performanceSnapshots": 370,
+    "performanceGoals": 0
+  }
+}
