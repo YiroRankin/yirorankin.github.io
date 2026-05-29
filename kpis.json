@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "cycle": "2026-2027",
+    "scope": "Metas + Rhino normalizado",
+    "updatedAt": "2026-05-29 10:05",
+    "exportedAt": "2026-05-29 10:06:26",
+    "publicJsonUrl": "https://yirorankin.github.io/data.json",
+    "files": {
+      "index": "https://yirorankin.github.io/index.json",
+      "data": "https://yirorankin.github.io/data.json",
+      "kpis": "https://yirorankin.github.io/kpis.json",
+      "campus": "https://yirorankin.github.io/campus.json",
+      "monthlyEnrollment": "https://yirorankin.github.io/monthlyEnrollment.json",
+      "sales": "https://yirorankin.github.io/sales.json",
+      "marketing": "https://yirorankin.github.io/marketing.json"
+    }
+  },
+  "kpis": [
+    {
+      "key": "meta_total",
+      "label": "Meta total",
+      "value": 4393,
+      "format": "number",
+      "helper": "EXANI I + EXANI II"
+    },
+    {
+      "key": "inscritos_reales",
+      "label": "Inscritos reales",
+      "value": 243,
+      "format": "number",
+      "helper": "Conteo valido en Rhino"
+    },
+    {
+      "key": "cumplimiento_pct",
+      "label": "% cumplimiento",
+      "value": 0.05531527430002276,
+      "format": "percent",
+      "helper": "Contra meta total"
+    },
+    {
+      "key": "campus_activos",
+      "label": "Campus activos",
+      "value": 6,
+      "format": "number",
+      "helper": "Con inscritos validos"
+    },
+    {
+      "key": "meses_inicio_activos",
+      "label": "Inicios activos",
+      "value": 2,
+      "format": "number",
+      "helper": "Con inscritos validos"
+    }
+  ]
+}
