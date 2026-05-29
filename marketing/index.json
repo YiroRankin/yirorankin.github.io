@@ -2,8 +2,8 @@
   "meta": {
     "cycle": "2026-2027",
     "scope": "Metas + Rhino normalizado",
-    "updatedAt": "2026-05-29 12:52",
-    "exportedAt": "2026-05-29 12:54:17",
+    "updatedAt": "2026-05-29 14:48",
+    "exportedAt": "2026-05-29 14:49:34",
     "publicJsonUrl": "https://yirorankin.github.io/data.json",
     "files": {
       "index": "https://yirorankin.github.io/index.json",
@@ -43,6 +43,7 @@
     "daily": 28,
     "campaigns": 19,
     "campus": 7,
+    "conversationGoals": 3,
     "temarios": 8,
     "audiences": 5,
     "details": 108,
