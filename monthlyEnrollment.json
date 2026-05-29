@@ -2,8 +2,8 @@
   "meta": {
     "cycle": "2026-2027",
     "scope": "Metas + Rhino normalizado",
-    "updatedAt": "2026-05-29 10:05",
-    "exportedAt": "2026-05-29 10:06:26",
+    "updatedAt": "2026-05-29 10:22",
+    "exportedAt": "2026-05-29 10:24:51",
     "publicJsonUrl": "https://yirorankin.github.io/data.json",
     "files": {
       "index": "https://yirorankin.github.io/index.json",
@@ -12,6 +12,12 @@
       "campus": "https://yirorankin.github.io/campus.json",
       "monthlyEnrollment": "https://yirorankin.github.io/monthlyEnrollment.json",
       "sales": "https://yirorankin.github.io/sales.json",
+      "salesIndex": "https://yirorankin.github.io/sales/index.json",
+      "salesRecords": "https://yirorankin.github.io/sales/records.json",
+      "salesGoals": "https://yirorankin.github.io/sales/goals.json",
+      "salesFunnelGoals": "https://yirorankin.github.io/sales/funnel-goals.json",
+      "salesReconciliation": "https://yirorankin.github.io/sales/reconciliation.json",
+      "salesEvolution": "https://yirorankin.github.io/sales/evolution.json",
       "marketing": "https://yirorankin.github.io/marketing.json"
     }
   },
