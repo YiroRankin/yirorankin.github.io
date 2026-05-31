@@ -2,8 +2,8 @@
   "meta": {
     "cycle": "2026-2027",
     "scope": "Metas + Rhino normalizado",
-    "updatedAt": "2026-05-30 06:09",
-    "exportedAt": "2026-05-30 06:20:06",
+    "updatedAt": "2026-05-30 18:35",
+    "exportedAt": "2026-05-30 18:37:01",
     "publicJsonUrl": "https://yirorankin.github.io/data.json",
     "files": {
       "index": "https://yirorankin.github.io/index.json",
@@ -39,15 +39,16 @@
     "full": "https://yirorankin.github.io/marketing.json"
   },
   "counts": {
-    "records": 899,
-    "daily": 28,
+    "records": 991,
+    "daily": 29,
     "campaigns": 18,
     "campus": 6,
+    "campusConfig": 6,
     "conversationGoals": 162,
     "temarios": 8,
     "audiences": 5,
     "details": 107,
-    "alerts": 570
+    "alerts": 649
   },
   "error": ""
 }
