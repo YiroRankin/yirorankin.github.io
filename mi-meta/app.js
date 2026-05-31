@@ -484,9 +484,15 @@
   }
 
   async function fetchLiveDashboard() {
-    const response = await fetch(ENDPOINTS.dashboard, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
+    let payload;
+    try {
+      const response = await fetch(ENDPOINTS.dashboard, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      payload = await response.json();
+    } catch (error) {
+      payload = await fetchLiveDashboardJsonp();
+    }
+
     state.payloads.goals = {
       meta: payload.meta || {},
       schoolYear: payload.sales?.schoolYear || '',
@@ -501,6 +507,29 @@
       meta: payload.meta || {},
       monthlyEnrollment: payload.monthlyEnrollment || []
     };
+  }
+
+  function fetchLiveDashboardJsonp() {
+    return new Promise((resolve, reject) => {
+      const callbackName = `miMetaDashboardCallback_${Date.now()}`;
+      const script = document.createElement('script');
+      const separator = ENDPOINTS.dashboard.includes('?') ? '&' : '?';
+
+      window[callbackName] = (payload) => {
+        resolve(payload);
+        script.remove();
+        delete window[callbackName];
+      };
+
+      script.onerror = () => {
+        reject(new Error('JSONP load failed'));
+        script.remove();
+        delete window[callbackName];
+      };
+
+      script.src = `${ENDPOINTS.dashboard}${separator}callback=${callbackName}`;
+      document.body.appendChild(script);
+    });
   }
 
   async function init() {
