@@ -1,5 +1,6 @@
 (function () {
   const ENDPOINTS = {
+    dashboard: 'https://script.google.com/macros/s/AKfycbwkW6DDAo7eeEd_6eDqlFzor1r5mRNtv-Ise9WZ9VINz4c-dsPgVjbt7LHpRQPLAK9_/exec',
     goals: 'https://yirorankin.github.io/sales/goals.json',
     records: 'https://yirorankin.github.io/sales/records.json',
     monthlyEnrollment: 'https://yirorankin.github.io/monthlyEnrollment.json'
@@ -482,13 +483,37 @@
     }
   }
 
+  async function fetchLiveDashboard() {
+    const response = await fetch(ENDPOINTS.dashboard, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    state.payloads.goals = {
+      meta: payload.meta || {},
+      schoolYear: payload.sales?.schoolYear || '',
+      specialistGoals: payload.sales?.specialistGoals || []
+    };
+    state.payloads.records = {
+      meta: payload.meta || {},
+      schoolYear: payload.sales?.schoolYear || '',
+      records: payload.sales?.records || []
+    };
+    state.payloads.monthlyEnrollment = {
+      meta: payload.meta || {},
+      monthlyEnrollment: payload.monthlyEnrollment || []
+    };
+  }
+
   async function init() {
     renderLoading();
-    await Promise.all([
-      fetchJson('goals', ENDPOINTS.goals),
-      fetchJson('records', ENDPOINTS.records),
-      fetchJson('monthlyEnrollment', ENDPOINTS.monthlyEnrollment)
-    ]);
+    try {
+      await fetchLiveDashboard();
+    } catch (error) {
+      await Promise.all([
+        fetchJson('goals', ENDPOINTS.goals),
+        fetchJson('records', ENDPOINTS.records),
+        fetchJson('monthlyEnrollment', ENDPOINTS.monthlyEnrollment)
+      ]);
+    }
     renderAll();
   }
 
