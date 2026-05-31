@@ -2,8 +2,8 @@
   "meta": {
     "cycle": "2026-2027",
     "scope": "Metas + Rhino normalizado",
-    "updatedAt": "2026-05-30 06:09",
-    "exportedAt": "2026-05-30 06:20:06",
+    "updatedAt": "2026-05-30 18:35",
+    "exportedAt": "2026-05-30 18:37:01",
     "publicJsonUrl": "https://yirorankin.github.io/data.json",
     "files": {
       "index": "https://yirorankin.github.io/index.json",
@@ -3083,9 +3083,9 @@
       "carryoverIn": 0,
       "goalAdjusted": 4,
       "goal": 4,
-      "real": 9,
-      "gap": 5,
-      "compliance": 2.25,
+      "real": 10,
+      "gap": 6,
+      "compliance": 2.5,
       "semaphore": "verde",
       "realSource": "group_id"
     },
@@ -3203,10 +3203,10 @@
       "carryoverIn": 0,
       "goalAdjusted": 30,
       "goal": 30,
-      "real": 23,
-      "gap": -7,
-      "compliance": 0.7666666666666667,
-      "semaphore": "rojo",
+      "real": 25,
+      "gap": -5,
+      "compliance": 0.8333333333333334,
+      "semaphore": "amarillo",
       "realSource": "group_id"
     },
     {
@@ -3243,10 +3243,10 @@
       "carryoverIn": 0,
       "goalAdjusted": 10,
       "goal": 10,
-      "real": 7,
-      "gap": -3,
-      "compliance": 0.7,
-      "semaphore": "rojo",
+      "real": 8,
+      "gap": -2,
+      "compliance": 0.8,
+      "semaphore": "amarillo",
       "realSource": "group_id"
     },
     {
@@ -3563,10 +3563,10 @@
       "carryoverIn": 0,
       "goalAdjusted": 2,
       "goal": 2,
-      "real": 1,
-      "gap": -1,
-      "compliance": 0.5,
-      "semaphore": "rojo",
+      "real": 2,
+      "gap": 0,
+      "compliance": 1,
+      "semaphore": "verde",
       "realSource": "group_id"
     },
     {
@@ -3603,10 +3603,10 @@
       "carryoverIn": 0,
       "goalAdjusted": 6,
       "goal": 6,
-      "real": 5,
-      "gap": -1,
-      "compliance": 0.8333333333333334,
-      "semaphore": "amarillo",
+      "real": 7,
+      "gap": 1,
+      "compliance": 1.1666666666666667,
+      "semaphore": "verde",
       "realSource": "group_id"
     },
     {
@@ -3983,10 +3983,10 @@
       "carryoverIn": 1,
       "goalAdjusted": 3,
       "goal": 3,
-      "real": 1,
-      "gap": -2,
-      "compliance": 0.3333333333333333,
-      "semaphore": "rojo",
+      "real": 3,
+      "gap": 0,
+      "compliance": 1,
+      "semaphore": "verde",
       "realSource": "group_id"
     },
     {
