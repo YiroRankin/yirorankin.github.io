@@ -483,6 +483,14 @@
     }
   }
 
+  async function fetchPublicPayloads() {
+    await Promise.all([
+      fetchJson('goals', ENDPOINTS.goals),
+      fetchJson('records', ENDPOINTS.records),
+      fetchJson('monthlyEnrollment', ENDPOINTS.monthlyEnrollment)
+    ]);
+  }
+
   async function fetchLiveDashboard() {
     let payload;
     try {
@@ -532,18 +540,21 @@
     });
   }
 
-  async function init() {
-    renderLoading();
+  async function refreshLiveDashboardInBackground() {
     try {
       await fetchLiveDashboard();
+      state.errors = {};
+      renderAll();
     } catch (error) {
-      await Promise.all([
-        fetchJson('goals', ENDPOINTS.goals),
-        fetchJson('records', ENDPOINTS.records),
-        fetchJson('monthlyEnrollment', ENDPOINTS.monthlyEnrollment)
-      ]);
+      // La vista ya quedó cargada con JSON públicos; el refresco vivo es opcional.
     }
+  }
+
+  async function init() {
+    renderLoading();
+    await fetchPublicPayloads();
     renderAll();
+    refreshLiveDashboardInBackground();
   }
 
   init();
